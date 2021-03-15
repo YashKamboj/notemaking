@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainhead{
+    text-align: center;
+    font-size: 250%;
+}
+.con{
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 64vh;
+}
+
+#head{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    margin-top: 2px;
+    text-align: center;
+}
+#message{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    top: 92px;
+    text-align: center;
+}
+#addbtn{
+    width: 120px;
+    position: absolute;
+    top: 67%;
+    height: 35px;
+    left: 50%;
+    border-radius: 10px;
+}
+#display{
+    
+    width: 100%;
+     display:grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit,minmax(100px,250px)); 
+}
+.textcon{
+    position: relative;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow:  inset 4px 4px 5px rgb(225,225, 225), 
+                inset -4px -4px 5px rgb(0,0, 0), 
+                3px 3px 40px rgb(225, 255,255);
+}
+#headd{
+position: relative;
+top: 20px;
+font-size: 2em;
+}
+#para{
+    position: relative;
+    top: 40px;
+    font-size: 1.1rem;
+}
+.delbtn{
+    position: relative;
+    top: 45px;
+    width: 100px;
+    border-radius: 5px;
+    background: transparent;
+    border-radius: 0.5px solid black;
+} 
